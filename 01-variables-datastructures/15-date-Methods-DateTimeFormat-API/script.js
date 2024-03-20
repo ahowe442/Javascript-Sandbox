@@ -36,7 +36,7 @@ x = d.toLocaleDateString('default', {
   hour: 'numeric',
   minute: 'numeric',
   second: 'numeric',
-  timeZone: 'America/Los_Angeles',
+  timeZone: 'America/Chicago',
 });
 
 console.log(x);
