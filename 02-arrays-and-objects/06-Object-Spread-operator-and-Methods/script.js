@@ -58,4 +58,5 @@ x = Object.entries(todo);
 
 // To find out if an array has a specific property. Returns a boolean
 x = todo.hasOwnProperty('name');
+
 console.log(x);
