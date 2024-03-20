@@ -21,4 +21,4 @@ x = arr.slice(1, 4);
 
 x = arr.splice(1, 4).reverse().toString().charAt(1);
 
-console.log(arr, x);
+console.log(x);
