@@ -13,7 +13,3 @@ console.log(`${x} - ${y} = ${diff}`);
 console.log(`${x} * ${y} = ${prod}`);
 console.log(`${x} / ${y} = ${quotient}}`);
 console.log(`${x} % ${y} = ${remainder}`);
-
-
-
-console.log(x)
