@@ -16,3 +16,4 @@ console.log(`${x} % ${y} = ${remainder}`);
 
 
 
+console.log(x)
