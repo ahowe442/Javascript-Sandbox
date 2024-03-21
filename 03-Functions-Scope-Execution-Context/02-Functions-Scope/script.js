@@ -1,27 +1,31 @@
-// Default Parameter user = 'bot'
+// Default Params
 function registerUser(user = 'Bot') {
-  //   if (!user) {
-  //     user = 'Bot';
-  //   }
-  return user + ' is registered.';
+  // Old way - before using `=`
+  // if (!user) {
+  //   user = 'Bot';
+  // }
+
+  return user + ' is registered';
 }
 
-console.log(registerUser()); // returns "Bot is registered".
+console.log(registerUser());
 
-// Rest Parameters
+// Rest Params
 function sum(...numbers) {
   let total = 0;
+
   for (const num of numbers) {
     total += num;
   }
+
   return total;
 }
 
 console.log(sum(1, 2, 3, 4, 5, 6, 100));
 
-//Objects as params
+// Objects as params
 function loginUser(user) {
-  return `The user ${user.name} with id of ${user.id} is logged in.`;
+  return `The user ${user.name} with the id of ${user.id} is logged in`;
 }
 
 const user = {
@@ -37,7 +41,7 @@ console.log(
   })
 );
 
-//Arrays as params
+// Arrays as params
 function getRandom(arr) {
   const randomIndex = Math.floor(
     Math.random() * arr.length
